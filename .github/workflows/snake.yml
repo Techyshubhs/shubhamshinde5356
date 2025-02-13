@@ -2,8 +2,8 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * 0"  # Runs every Sunday at midnight UTC
-  workflow_dispatch:  # Allows manual trigger
+    - cron: "0 0 * * 0"  # Runs every Sunday at midnight
+  workflow_dispatch:  # Allows manual execution
 
 jobs:
   build:
@@ -16,18 +16,18 @@ jobs:
       - name: Generate Snake Animation
         uses: Platane/snk@v2
         with:
-          github_user_name: Techyshubhs  # Replace with your GitHub username
+          github_user_name: Techyshubhs
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
       - name: Ensure dist Directory Exists
-        run: mkdir -p dist  # Ensures the dist folder exists before pushing
+        run: mkdir -p dist
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
         with:
-          target_branch: output  # Output branch where snake animations will be stored
-          build_dir: dist  # Directory containing the generated files
+          target_branch: output
+          build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Uses default GitHub token
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
