@@ -58,8 +58,10 @@
 
 ---
 
-## 🔥 Animated Profile Banner
+## 🐍 GitHub Contribution Snake
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00FF00&width=435&lines=React+Frontend+Developer;Competitive+Programmer;Passionate+about+Tech+%26+Code" />
+  <img src="https://github.com/Techyshubhs/Techyshubhs/blob/output/github-snake.svg#gh-light-mode-only" alt="Snake Animation Light Mode" />
+  <img src="https://github.com/Techyshubhs/Techyshubhs/blob/output/github-snake.svg#gh-dark-mode-only" alt="Snake Animation Dark Mode" />
 </p>
+
 
