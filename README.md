@@ -32,7 +32,7 @@
 ## 📊 GitHub Stats
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Techyshubhs&show_icons=true&theme=tokyonight&locale=en" alt="GitHub Stats" width="45%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Techyshubhs&theme=tokyonight" alt="GitHub Streak" width="45%"/>
+<!--   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Techyshubhs&theme=tokyonight" alt="GitHub Streak" width="45%"/> -->
 </div>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Techyshubhs&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" width="45%"/>
@@ -58,7 +58,7 @@
 
 ---
 
-## 🐍 GitHub Contribution Snake
+## 🐍 GitHub Contribution 
 
 <p align="center">
   <img src="https://github.com/Techyshubhs/Techyshubhs/blob/output/github-snake.svg#gh-light-mode-only" alt="Snake Animation Light Mode" />
